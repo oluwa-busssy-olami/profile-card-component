@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+:root {
+    --Darkcyan: hsl(185, 75%, 39%);
+    --Verydarkdesaturatedblue: hsl(229, 23%, 23%);
+    --Darkgrayishblue: hsl(227, 10%, 46%);
+    --Darkgray: hsl(0, 0%, 59%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Darkcyan);
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 40vh bottom 30vh, left 40vh top 30vh;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    margin: 18px;
+}
+
+.pattern img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.main-container {
+    max-width: 400px;
+    background-color: #fff;
+    margin: 18px;
+    border-radius: 15px;
+}
+
+.text img {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+.text h1 {
+    font-size: 16px;
+    color: var(--Verydarkdesaturatedblue);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.text span {
+    color: var(--Darkgray);
+    font-weight: 400;
+}
+
+.text p {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--Darkgray);
+}
+
+.profile-review {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    border-top: .1px solid #cfc8c8;
+}
+
+.profile h2 {
+    font-size: 18px;
+    color: var(--Verydarkdesaturatedblue);
+    font-weight: 700;
+}
+
+.profile p {
+    font-weight: 400;
+    font-size: 10px;
+    margin-top: 4px;
+}
