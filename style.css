@@ -91,3 +91,15 @@ body {
     font-size: 10px;
     margin-top: 4px;
 }
+
+@media (max-width:350px) {
+    .profile-review {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 50px;
+        border-top: o.1px solid #cfc8c8;
+        flex-direction: column;
+    }
+}
